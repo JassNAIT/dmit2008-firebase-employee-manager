@@ -35,4 +35,4 @@ firestore.rules
 storage.rules
 
 # snippets
-snippets.md
+/snippets.md
