@@ -33,3 +33,6 @@ firebase.json
 firestore.indexes.json
 firestore.rules
 storage.rules
+
+# snippets
+snippets.md
