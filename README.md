@@ -65,7 +65,7 @@ You need to associate your react project with a Firebase project. You will be pr
 
 #### Firestore Setup
 Next you will be asked to setup the ```Firestore Security Rules``` allow you to define how and when to allow
-requests. You can keep these rules in your project directory and publish them with firebase deploy. For now except the default by pressing return  
+requests. You can keep these rules in your project directory and publish them with firebase deploy. For now except the default by pressing return 
   
 #### Firestore Rules 
 Firestore indexes allow you to perform complex queries while maintaining performance that scales with the size of the result set. You can keep index definitions in your project directory and publish them with firebase deploy. Except the default file ```firestore.indexes.json``` by hitting enter.
