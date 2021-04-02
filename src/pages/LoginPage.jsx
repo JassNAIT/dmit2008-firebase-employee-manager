@@ -19,7 +19,7 @@ const LoginPage = (props)=>{
         <header><h1>Login Page</h1></header>
         <FormInput label="Email" type="text"/>
         <FormInput label="Password" type="password"/>
-        <Button label="Login" uiStyles="login"/>
+        <Button label="Login" uiStyle="login"/>
         </LoginPageStyles>
     );
 }
