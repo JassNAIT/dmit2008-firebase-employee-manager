@@ -5,6 +5,7 @@ const AppBarStyles = styled.nav`
   box-shadow:0 0 3px 1px grey;
   padding: 1rem;
   background:#f15b29;
+
   ul{
       display:flex;
       justify-content:center;
@@ -14,7 +15,8 @@ const AppBarStyles = styled.nav`
   }
   a{
       text-decoration:none;
-      color:grey;
+      color:white;
+      font-weight:bold;
   }
 `
 

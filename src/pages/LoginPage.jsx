@@ -9,8 +9,12 @@ import Button from './../components/buttons/Button';
 const LoginPageStyles = styled.header`
 max-width:380px;
 margin:6rem auto 0;
+
 h1{
     font-size:2.25rem;
+    margin-bottom:2rem;
+    font-weight: 700;
+    text-align: center;
 }
 `
 const LoginPage = (props)=>{

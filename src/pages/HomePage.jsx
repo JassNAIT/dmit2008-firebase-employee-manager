@@ -9,6 +9,8 @@ svg{
 }
 h1{
     font-size:2.25rem;
+    font-weight:bold;
+    margin-bottom: 1rem;
 }
 p{
     color:#767484;

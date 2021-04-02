@@ -14,6 +14,7 @@ const RegisterPageStyles = styled.aside`
     h2{
         font-size: 2rem;
         font-weight: 700;
+        margin-bottom: 1rem;
     }
     .create-account{
         margin-top: 2rem;
@@ -27,8 +28,8 @@ const RegisterPage = (props)=>{
             <h2>Unlimited Free Trial Sign Up</h2>
             <p>No Credit Card Required</p>
         </header>
-        <FormInput label="Name on the account" type="text"/>
-        <FormInput label="Valid email address" type="email"/>
+        <FormInput label="Name" type="text"/>
+        <FormInput label="Email Address" type="email"/>
         <FormInput label="Password (min 6 characters)" type="text"/>
         <Button className="create-account" uiStyle="login" label="Create a free account"/>
         </RegisterPageStyles>
