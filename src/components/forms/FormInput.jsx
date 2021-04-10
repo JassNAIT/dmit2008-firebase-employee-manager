@@ -27,7 +27,7 @@ box-shadow: 0 4px 4px -2px rgba(0,0,0,0.2);
 
 const FormInput = (props) => {
 return ( 
-<FormInputStyles>
+<FormInputStyles {...props}>
 <label htmlFor={props.id}>{props.label}</label>
 <input type={props.type} id={props.id} name={props.name}/>
 </FormInputStyles>

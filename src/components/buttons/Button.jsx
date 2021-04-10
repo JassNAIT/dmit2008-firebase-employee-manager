@@ -26,7 +26,7 @@ ${props => props.uiStyle === "signup" &&
 const Button = (props) => {
     console.log(props);
    return (
-       <ButtonStyles {...props}>
+       <ButtonStyles {...props} >
            {props.label}
            {props.children}
        </ButtonStyles>
