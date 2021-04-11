@@ -52,9 +52,10 @@ const LoginPage = (props)=>{
             console.log(error.message)
         })
     }
-    const handleChange =(e)=>{
+
+    /*const handleChange =(e)=>{
           console.log(e.target.value)
-    }
+    }*/
   
     if(isValid){
         return <Redirect to="/dashboard"/>

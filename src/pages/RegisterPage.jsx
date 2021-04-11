@@ -1,9 +1,9 @@
-import React, {useState, useContext} from 'react'; 
+import React, {useState} from 'react'; 
 import styled from 'styled-components';
 import {Redirect} from 'react-router-dom';
 
 import firebaseApp from './../firebase/firebaseConfig';
-import AuthContext from './../auth/AuthContext';
+//import AuthContext from './../auth/AuthContext';
 import FormInput from './../components/forms/FormInput'
 import Button from './../components/buttons/Button';
 
@@ -25,7 +25,7 @@ const RegisterPageStyles = styled.aside`
 `
 
 const RegisterPage = (props)=>{
-    const auth = useContext(AuthContext)
+   // const auth = useContext(AuthContext)
     const [email,setEmail] = useState(null)
     const [password, setPassword] = useState(null)
 
