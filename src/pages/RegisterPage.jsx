@@ -28,16 +28,16 @@ const RegisterPage = (props)=>{
    // const auth = useContext(AuthContext)
     const [email,setEmail] = useState(null)
     const [password, setPassword] = useState(null)
-
-        const [currentUser, setCurrentUser] = useState(null);    
+    const [currentUser, setCurrentUser] = useState(null);    
         const handleSubmit = (e) => {
           e.preventDefault();    
-          try {
-            firebaseApp.auth().createUserWithEmailAndPassword(email, password);      
+          firebaseApp.auth().createUserWithEmailAndPassword(email, password)
+          .then(userCredential=>{     
             setCurrentUser(true);
-          } catch (error) {
-            alert(error);
-          }
+          })
+          .catch (error=> {
+            console.log(error);
+          })
         };
 
 

@@ -37,7 +37,7 @@ const LoginPage = (props)=>{
         console.log(firebaseApp)
         //firebaseApp.firestore()
         //firebaseApp.storage()
-        //firebaseApp.auth().signInWithEmailAndPassword('jkaur79@nait.ca','12345')
+       // firebaseApp.auth().signInWithEmailAndPassword('jkaur79@nait.ca','123456')
         firebaseApp.auth().signInWithEmailAndPassword(email,password)
         .then(userCredential=>{
             console.log(userCredential.user.email)
@@ -49,7 +49,7 @@ const LoginPage = (props)=>{
         })
         .catch(error=>{
             console.log(error.code)
-            console.log(error.message)
+            //console.log(error.message)
         })
     }
 
