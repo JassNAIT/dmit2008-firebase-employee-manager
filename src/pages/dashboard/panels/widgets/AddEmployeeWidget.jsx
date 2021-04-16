@@ -49,9 +49,9 @@ function handleInsert(){
                Add New Employee
               </h2>
           </header>
-        <FormInput type="text" label="fullname" onChange={(e)=> setName(e.target.value)} />
-        <FormInput type="text" label="department" onChange={(e)=> setDepartment(e.target.value)} />
-        <Button label="add employee" onClick={handleInsert}/>
+        <FormInput type="text" label="Full Name" onChange={(e)=> setName(e.target.value)} />
+        <FormInput type="text" label="Department" onChange={(e)=> setDepartment(e.target.value)} />
+        <Button label="Add Employee" onClick={handleInsert}/>
        </WidgetStyles>
      );
 }

@@ -72,10 +72,10 @@ const Employee = ( {name,department}) => {
         <User />
       </li>
       <li className="content">
-        <p>full name</p> {name}
+        <p>Full Name</p> {name}
       </li>
       <li className="content">
-        <p>department</p> {department}
+        <p>Department</p> {department}
       </li>
       <li className="controls">
         <RemoveEmployee />
